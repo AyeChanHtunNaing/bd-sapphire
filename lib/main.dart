@@ -8,6 +8,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('HBD Little Sapphire'),
+        ),
+        body: BirthdayWish(),
+      ),
+    );
   }
 }
